@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.wrapper button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius:10px;
+    border: none;
+    cursor: pointer;
+}
+.accordian{
+    padding: 20px;
+    border-radius: 10px;
+    /* background-color: crimson; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.item{
+    /* cursor: pointer; */
+    background: #614101;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+}
+
+.content{
+    /* background-color: rgb(188, 43, 72); */
+    padding: 10px;
+    color: black;
+}
+
+.title{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
