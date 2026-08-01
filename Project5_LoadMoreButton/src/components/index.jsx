@@ -35,7 +35,24 @@ function LodeMoreData() {
 
   return (
 
-    <div className='container' >LodeMoreData</div>
+    <div className='container' >
+        {
+            products && products.length ?
+            products.map((items)=>(
+                <div
+                key={items.id}
+                >
+                    <img 
+                    src={items.thumbnail}
+                    alt={items.title}
+                    />
+                    <p>{items.title}</p>
+                </div>
+            ))
+            :
+            null
+        }
+    </div>
 
   )
 }
