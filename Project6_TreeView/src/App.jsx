@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import TreeView from './components'
+import menus from './components/data'
 
 
 function App() {
@@ -7,9 +8,10 @@ function App() {
 
   return (
     <>
-    <TreeView/>
+    <TreeView menus={menus} />
     </>
   )
 }
 
 export default App
+  

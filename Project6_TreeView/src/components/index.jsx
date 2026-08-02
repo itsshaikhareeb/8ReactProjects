@@ -1,5 +1,4 @@
 import './styles.css'
- import menus from './data'
 import MenuList from './MenuList'
  
  function TreeView({menus = []}) {
